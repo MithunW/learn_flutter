@@ -1,19 +1,18 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_project/main.dart';
-void main()=>runApp(MyApp());
 
 class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
-      title:'Welcome to Flutter',
-      home:Scaffold(
+      title: 'Welcome to flutter',
+      home: Scaffold(
         appBar:AppBar(
-          title: Text('Welcome to Flutter'),
-        ),
-        body:Center(
-          child:Text('Hello Flutter User'),
-          ),
-        ),
+          title:Text('Welcome to Flutter') ,
+          ) ,
+          body: Center(
+            child:Text('My first app in Flutter') ,
+            ),
+            ),
     );
   }
 }
