@@ -8,10 +8,12 @@ class MyApp extends StatelessWidget{
       home: Scaffold(
         appBar:AppBar(
           title:Text('Welcome to Flutter') ,
+          backgroundColor:Colors.orangeAccent,
           ) ,
           body: Center(
             child:Text('My first app in Flutter') ,
             ),
+            backgroundColor: Colors.orangeAccent,
             ),
     );
   }
