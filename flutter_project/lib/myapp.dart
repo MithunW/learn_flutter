@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget{
           body: Center(
             child:Text('My first app in Flutter') ,
             ),
-            backgroundColor: Colors.orangeAccent,
+            backgroundColor: Colors.orangeAccent[100],
             ),
     );
   }
